@@ -1,2 +1,2 @@
-USE [form_data]
-SELECT * FROM users
+USE [form_data];
+SELECT * FROM users;

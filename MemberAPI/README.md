@@ -13,3 +13,5 @@ A mock-up website developed in ASP.NET Core that interacts with an API. It colle
 2. Update the "ConnectionString" variable in the main program to connect the application to the SQL server.
 3. Run the application using Visual Studio or the .NET CLI.
 
+## Screenshots
+<img width="1280" height="632" alt="Mock-Up Website" src="https://github.com/user-attachments/assets/0e897de7-15b0-430f-8b9a-6006536fa733" />

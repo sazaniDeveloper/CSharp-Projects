@@ -1,4 +1,4 @@
-# MemberAPI
+# MemberAPI 👤
 
 A mock-up website developed in ASP.NET Core that interacts with an API. It collects input from users and stores the data in a SQL Server database. This project demonstrates expertise in C# programming, .NET Core, ASP.NET Core, API development and SQL database integration.
 

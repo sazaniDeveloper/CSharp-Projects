@@ -37,7 +37,6 @@
             this.Number_7 = new System.Windows.Forms.Button();
             this.Number_8 = new System.Windows.Forms.Button();
             this.Number_9 = new System.Windows.Forms.Button();
-            this.Results_TextBox = new System.Windows.Forms.RichTextBox();
             this.plus_operator = new System.Windows.Forms.Button();
             this.minus_operator = new System.Windows.Forms.Button();
             this.multiply_operator = new System.Windows.Forms.Button();
@@ -46,10 +45,12 @@
             this.Number_0 = new System.Windows.Forms.Button();
             this.labelMath = new System.Windows.Forms.Label();
             this.Delete_Button = new System.Windows.Forms.Button();
+            this.Results_TextBox = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // Number_1
             // 
+            this.Number_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Number_1.Location = new System.Drawing.Point(33, 325);
             this.Number_1.Name = "Number_1";
             this.Number_1.Size = new System.Drawing.Size(96, 70);
@@ -61,6 +62,7 @@
             // 
             // Number_2
             // 
+            this.Number_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Number_2.Location = new System.Drawing.Point(151, 325);
             this.Number_2.Name = "Number_2";
             this.Number_2.Size = new System.Drawing.Size(96, 70);
@@ -72,6 +74,7 @@
             // 
             // Number_3
             // 
+            this.Number_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Number_3.Location = new System.Drawing.Point(264, 325);
             this.Number_3.Name = "Number_3";
             this.Number_3.Size = new System.Drawing.Size(96, 70);
@@ -83,6 +86,7 @@
             // 
             // Number_4
             // 
+            this.Number_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Number_4.Location = new System.Drawing.Point(33, 235);
             this.Number_4.Name = "Number_4";
             this.Number_4.Size = new System.Drawing.Size(96, 70);
@@ -94,6 +98,7 @@
             // 
             // Number_5
             // 
+            this.Number_5.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Number_5.Location = new System.Drawing.Point(151, 235);
             this.Number_5.Name = "Number_5";
             this.Number_5.Size = new System.Drawing.Size(96, 70);
@@ -105,6 +110,7 @@
             // 
             // Number_6
             // 
+            this.Number_6.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Number_6.Location = new System.Drawing.Point(264, 235);
             this.Number_6.Name = "Number_6";
             this.Number_6.Size = new System.Drawing.Size(96, 70);
@@ -116,6 +122,7 @@
             // 
             // Number_7
             // 
+            this.Number_7.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Number_7.Location = new System.Drawing.Point(33, 146);
             this.Number_7.Name = "Number_7";
             this.Number_7.Size = new System.Drawing.Size(96, 70);
@@ -127,6 +134,7 @@
             // 
             // Number_8
             // 
+            this.Number_8.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Number_8.Location = new System.Drawing.Point(151, 146);
             this.Number_8.Name = "Number_8";
             this.Number_8.Size = new System.Drawing.Size(96, 70);
@@ -138,6 +146,7 @@
             // 
             // Number_9
             // 
+            this.Number_9.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Number_9.Location = new System.Drawing.Point(264, 146);
             this.Number_9.Name = "Number_9";
             this.Number_9.Size = new System.Drawing.Size(96, 70);
@@ -147,25 +156,10 @@
             this.Number_9.Click += new System.EventHandler(this.Number_9_Click);
             this.Number_9.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Number_9_KeyDown);
             // 
-            // Results_TextBox
-            // 
-            this.Results_TextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Results_TextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Results_TextBox.HideSelection = false;
-            this.Results_TextBox.Location = new System.Drawing.Point(33, 45);
-            this.Results_TextBox.Name = "Results_TextBox";
-            this.Results_TextBox.ReadOnly = true;
-            this.Results_TextBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Results_TextBox.Size = new System.Drawing.Size(328, 75);
-            this.Results_TextBox.TabIndex = 9;
-            this.Results_TextBox.TabStop = false;
-            this.Results_TextBox.Text = "";
-            // 
             // plus_operator
             // 
-            this.plus_operator.Location = new System.Drawing.Point(151, 413);
+            this.plus_operator.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.plus_operator.Location = new System.Drawing.Point(386, 146);
             this.plus_operator.Name = "plus_operator";
             this.plus_operator.Size = new System.Drawing.Size(96, 70);
             this.plus_operator.TabIndex = 10;
@@ -176,7 +170,8 @@
             // 
             // minus_operator
             // 
-            this.minus_operator.Location = new System.Drawing.Point(264, 413);
+            this.minus_operator.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.minus_operator.Location = new System.Drawing.Point(386, 235);
             this.minus_operator.Name = "minus_operator";
             this.minus_operator.Size = new System.Drawing.Size(96, 70);
             this.minus_operator.TabIndex = 11;
@@ -187,7 +182,8 @@
             // 
             // multiply_operator
             // 
-            this.multiply_operator.Location = new System.Drawing.Point(33, 504);
+            this.multiply_operator.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.multiply_operator.Location = new System.Drawing.Point(386, 413);
             this.multiply_operator.Name = "multiply_operator";
             this.multiply_operator.Size = new System.Drawing.Size(96, 70);
             this.multiply_operator.TabIndex = 12;
@@ -198,7 +194,8 @@
             // 
             // division_operator
             // 
-            this.division_operator.Location = new System.Drawing.Point(151, 504);
+            this.division_operator.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.division_operator.Location = new System.Drawing.Point(386, 325);
             this.division_operator.Name = "division_operator";
             this.division_operator.Size = new System.Drawing.Size(96, 70);
             this.division_operator.TabIndex = 13;
@@ -209,7 +206,8 @@
             // 
             // equals_button
             // 
-            this.equals_button.Location = new System.Drawing.Point(263, 504);
+            this.equals_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.equals_button.Location = new System.Drawing.Point(264, 413);
             this.equals_button.Name = "equals_button";
             this.equals_button.Size = new System.Drawing.Size(96, 70);
             this.equals_button.TabIndex = 14;
@@ -220,6 +218,7 @@
             // 
             // Number_0
             // 
+            this.Number_0.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Number_0.Location = new System.Drawing.Point(33, 413);
             this.Number_0.Name = "Number_0";
             this.Number_0.Size = new System.Drawing.Size(96, 70);
@@ -234,12 +233,13 @@
             this.labelMath.AutoSize = true;
             this.labelMath.Location = new System.Drawing.Point(31, 19);
             this.labelMath.Name = "labelMath";
-            this.labelMath.Size = new System.Drawing.Size(0, 17);
+            this.labelMath.Size = new System.Drawing.Size(0, 20);
             this.labelMath.TabIndex = 16;
             // 
             // Delete_Button
             // 
-            this.Delete_Button.Location = new System.Drawing.Point(32, 590);
+            this.Delete_Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Delete_Button.Location = new System.Drawing.Point(151, 413);
             this.Delete_Button.Name = "Delete_Button";
             this.Delete_Button.Size = new System.Drawing.Size(96, 70);
             this.Delete_Button.TabIndex = 17;
@@ -247,12 +247,29 @@
             this.Delete_Button.UseVisualStyleBackColor = true;
             this.Delete_Button.Click += new System.EventHandler(this.Delete_Button_Click);
             // 
-            // Form1
+            // Results_TextBox
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.Results_TextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Results_TextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Results_TextBox.HideSelection = false;
+            this.Results_TextBox.Location = new System.Drawing.Point(33, 40);
+            this.Results_TextBox.Name = "Results_TextBox";
+            this.Results_TextBox.ReadOnly = true;
+            this.Results_TextBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.Results_TextBox.Size = new System.Drawing.Size(446, 78);
+            this.Results_TextBox.TabIndex = 18;
+            this.Results_TextBox.TabStop = false;
+            this.Results_TextBox.Text = "";
+            // 
+            // Calculator
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
-            this.ClientSize = new System.Drawing.Size(387, 703);
+            this.ClientSize = new System.Drawing.Size(505, 517);
+            this.Controls.Add(this.Results_TextBox);
             this.Controls.Add(this.Delete_Button);
             this.Controls.Add(this.labelMath);
             this.Controls.Add(this.Number_0);
@@ -261,7 +278,6 @@
             this.Controls.Add(this.multiply_operator);
             this.Controls.Add(this.minus_operator);
             this.Controls.Add(this.plus_operator);
-            this.Controls.Add(this.Results_TextBox);
             this.Controls.Add(this.Number_9);
             this.Controls.Add(this.Number_8);
             this.Controls.Add(this.Number_7);
@@ -272,8 +288,9 @@
             this.Controls.Add(this.Number_2);
             this.Controls.Add(this.Number_1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Name = "Form1";
+            this.Name = "Calculator";
             this.Text = "Calculator";
+            this.Load += new System.EventHandler(this.Calculator_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -290,7 +307,6 @@
         private System.Windows.Forms.Button Number_7;
         private System.Windows.Forms.Button Number_8;
         private System.Windows.Forms.Button Number_9;
-        private System.Windows.Forms.RichTextBox Results_TextBox;
         private System.Windows.Forms.Button plus_operator;
         private System.Windows.Forms.Button minus_operator;
         private System.Windows.Forms.Button multiply_operator;
@@ -299,6 +315,7 @@
         private System.Windows.Forms.Button Number_0;
         private System.Windows.Forms.Label labelMath;
         private System.Windows.Forms.Button Delete_Button;
+        private System.Windows.Forms.RichTextBox Results_TextBox;
     }
 }
 

@@ -557,5 +557,9 @@ namespace FirstApplicationInTwoYears
             equals_button_Click(sender, e);
         }
 
+        private void Calculator_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -10,6 +10,6 @@ A mock-up website developed in ASP.NET Core that interacts with an API. It colle
 ## Instructions
 
 1. Go to the SQL Queries folder to get the database started. 
-2. Update the "ConnectionString" variable in the main program to connect the application to the SQL server
+2. Update the "ConnectionString" variable in the main program to connect the application to the SQL server.
 3. Run the application using Visual Studio or the .NET CLI.
 

@@ -1,8 +1,9 @@
-# Calculator (in progress) 🧮
+# Calculator 🧮
 
 A WPF application developed in C# that is designed to perform arithmetic operations: addition, subtraction, multiplication and division. This project demonstrates expertise in WPF UI design, event handling, and C# programming concepts.
 
 ## Screenshots
-<img width="488" height="488" alt="Calculator" src="https://github.com/user-attachments/assets/033f9eea-e931-461a-b610-20ff78d157e9" />
+<img width="392" height="365" alt="image" src="https://github.com/user-attachments/assets/ff02b511-5ad5-41ad-829d-d5c9a40e4609" />
 <br><br><br>
-<img width="467" height="490" alt="Calculator Addition" src="https://github.com/user-attachments/assets/83f78894-674c-49aa-b271-a3c55999cfc4" />
+<img width="392" height="365" alt="image" src="https://github.com/user-attachments/assets/d4c96341-1f4b-425b-9b40-2ea3ecbfdcda" />
+

@@ -1,4 +1,4 @@
-# Notepad Duplicate 
+# Notepad Duplicate 📋
 A WPF application developed in C# that is designed to replicate the functionality of the Windows program Notepad. This project demonstrates expertise in C# programming, .NET Core, and WPF development. 
 - Write and edit with a similar interface to Notepad
 - Save and open files using standard file I/O

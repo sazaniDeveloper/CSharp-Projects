@@ -9,3 +9,10 @@ This repository contains C# projects that I have created to demonstrate my skill
 - **MemberAPI** (June 2024)
 - **To-Do-List** (Sep 2025)
 
+## Technologies Used
+
+- **C#**
+- **WPF**
+- **ASP.NET Core**
+- **SQL Server**
+- **Microsoft Access (MDB)**
